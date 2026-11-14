@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+
+body{
+    background-color: #F9F7F4;
+}
+
+header{
+    display: flex; justify-content: space-between;
+    align-items: center;
+    background-color: #F9F7F4;
+    color:#3B4238;
+    height: 80px;
+    margin: 30px;
+    border-bottom: 1px solid #E6E1D6;
+}
+
+.title{
+    margin-left: 80px;
+}
+nav{
+    background-color: #F9F7F4;
+    color:#3B4238;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a{
+    background-color: #F9F7F4;
+    text-align:center;
+    color: #9E8976;
+    font-weight: bold;
+    margin:0px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color:#F9F7F4;
+    color: #5E5848;
+
+}
+.about-section {
+    background-color: #F9F7F4;
+    color: #3B4238;
+    border-bottom: 1px solid #E6E1D6;
+    display: flex;                  
+    justify-content: space-between; 
+    align-items: center;            
+    gap: 40px;                      
+    margin: 0 80px;                
+    padding: 60px 0;          
+}
+.im{
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 9px;
+    padding: 4px;
+    border-radius: 99px;
+    background-color:#E6E3DB;
+    color:#52554E;
+    font-size: 0.94rem;
+    
+}
+.slogan{
+        font-size: 2rem;
+        line-height: 1.3;
+        font-weight: 400;
+        margin-bottom: 24px;
+        font-family: "Merriweather", serif;
+        color: #3B4238;
+}
+.profile-img{
+        float: right;
+        position: relative;
+        border-radius: 16px;
+        border: 1px solid rgba(106, 123, 92, 0.15);
+        border-radius: 16px;
+        box-shadow: 12px 12px 0px rgba(106, 123, 92, 0.2);
+}
+
+.skills-section{
+    background-color: #F9F7F4;
+    color:#3B4238;
+    border-bottom: 1px solid #E6E3DB;
+    margin-left: 40px;
+    text-align: center;
+}
+.computer-skills{
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+    padding-bottom: 16px;
+    margin: 0 0 40px 0;
+    border-bottom: 1px solid #E6E3DB;
+}
+
+.skills-all{
+    display: flex;
+    gap: 60px;
+}
+
+.skill-group{
+    flex: 1;
+    text-align: center;
+}
+
+.skill-item{
+    margin-bottom: 20px;
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #686A63;
+    margin-bottom: 8px;
+}
+/*製作進度條參考資料： https://www.w3schools.com/howto/howto_css_skill_bar.asp*/
+.progress{
+    width: 100%;
+    height: 10px;
+    background-color:#F5F6F0;
+    border-radius: 10px;
+    overflow: hidden; /* 如何控制進度條大小：https://www.webdesigns.com.tw/css_overflow.asp */
+
+}
+.progress-fill{
+    height: 100%;
+    background-color: #3B4238;
+    border-radius: 10px;
+}
+
+.english{
+    display: flex;
+    flex-wrap: wrap;                
+    justify-content: space-between; /* 讓元素換行並平均分配空間 https://ithelp.ithome.com.tw/m/articles/10241690*/
+    margin-top: 14px;
+    padding-left: 14px;
+    border-left: 2px solid #E6E3DB;
+    background-color: #F5F6F0;
+}
+
+.item2{
+    width: 47%;
+    margin-bottom: 12px;
+}
+
+.item2.skill{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.progress2{
+    height: 6px;
+}
+
+.progress2.progress-fill{
+    background-color: #9E8976;
+}
+
+.experience-section{
+    background-color: #F9F7F4;
+    color:#3B4238;
+    text-align: center;
+    margin: 0 80px; 
+    padding: 40px 0;
+    border-bottom: 1px solid #E6E3DB;
+}
+.experiences{
+    margin-top: 14px;
+    padding-left: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-auto-flow: column;
+    padding: 20px;
+}
+
+.card{
+    margin:10px;
+    background-color: #FFFFFF;
+    border: 1px solid #EFECE6;
+    border-radius: 12px;
+    padding: 32px 28px;
+    text-align: center; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.card video{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;/* 如何調整照片大小：https://www.w3schools.com/css/css3_object-fit.asp */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.card p{
+    line-height: 1.6;
+}
+
+footer{
+    background-color: #F9F7F4;
+    color:#3B4238;
+    text-align: center;
+    padding: 20px;
+}
+footer a {
+    color: #9E8976;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #5E5848;
+    text-decoration: underline;
+}
