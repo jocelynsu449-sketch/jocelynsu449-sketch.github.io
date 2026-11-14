@@ -76,9 +76,8 @@ nav a:hover{
 .profile-img{
         float: right;
         position: relative;
-        border-radius: 16px;
         border: 1px solid rgba(106, 123, 92, 0.15);
-        border-radius: 16px;
+        border-radius: 25px;
         box-shadow: 12px 12px 0px rgba(106, 123, 92, 0.2);
 }
 
