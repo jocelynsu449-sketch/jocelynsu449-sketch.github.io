@@ -133,6 +133,16 @@ nav a:hover{
     border-radius: 10px;
 }
 
+.skill-link{
+    color: #686A63;
+}
+.skill-link:visited{
+    color:  #9E8976;
+}
+.skill-link:hover{
+    color: #5E5848;
+    text-decoration: underline;
+}  
 .english{
     display: flex;
     flex-wrap: wrap;                
@@ -195,6 +205,11 @@ nav a:hover{
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 10px;
+    transition-property: transform;
+    transition-duration: 0.4s;
+}
+.card img:hover {
+    transform: scale(1.4);
 }
 .card video{
     width: 100%;
@@ -202,6 +217,11 @@ nav a:hover{
     object-fit: cover;/* 如何調整照片大小：https://www.w3schools.com/css/css3_object-fit.asp */
     border-radius: 8px;
     margin-bottom: 10px;
+    transition-property: transform;/*過度轉場的方法 （講義＋參考資料：https://ithelp.ithome.com.tw/articles/10408439 ） */
+    transition-duration: 0.4s;
+}
+.card video:hover {
+    transform: scale(1.4); 
 }
 .card p{
     line-height: 1.6;
